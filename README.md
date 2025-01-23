@@ -20,8 +20,12 @@ git commit -m "Initial Commit"
 git push --set-upstream origin '<branch-name>' || git push -u origin dev
 
 git pull 
+
 git fetch
 
 git config --global user.name "FIRST_NAME LAST_NAME"
+
 git config --global user.email "MY_NAME@example.com"
 
+# Check status of files to commit
+git status
